@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BingoFinal.MultiGame"
+             BackgroundColor="Silver">
+    <StackLayout x:Name="sl" Margin="20">
+        <Grid>
+            <Label x:Name="plyrName" Text="" HorizontalOptions="CenterAndExpand" TextColor="Blue"
+               FontSize="Large" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Button x:Name="Cancel" Text="Exit" Clicked="Cancel_Clicked" HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="Black" Grid.Column="2" TextColor="White"/>
+        </Grid>
+        <Grid x:Name="GridMulti" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Silver" >
+            <Label Text="B" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Maroon" Font="TimesNewRoman" FontAttributes="Bold" BackgroundColor="Green" Rotation="3"/>
+            <Label Text="I" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Maroon" Font="TimesNewRoman" FontAttributes="Bold" BackgroundColor="Green" Rotation="-3"/>
+            <Label Text="N" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Maroon" Font="TimesNewRoman" FontAttributes="Bold" BackgroundColor="Green" Rotation="3"/>
+            <Label Text="G" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Maroon" Font="TimesNewRoman" FontAttributes="Bold" BackgroundColor="Green" Rotation="-3"/>
+            <Label Text="O" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Maroon" Font="TimesNewRoman" FontAttributes="Bold" BackgroundColor="Green" Rotation="3"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="0" Grid.Column="2" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="1" Grid.Column="2" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="4" Grid.Column="2" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="0" Grid.Column="3" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="1" Grid.Column="3" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="3" Grid.Column="3" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="4" Grid.Column="3" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="0" Grid.Column="4" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="1" Grid.Column="4" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="2" Grid.Column="4" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="3" Grid.Column="4" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="4" Grid.Column="4" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="0" Grid.Column="5" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="1" Grid.Column="5" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="2" Grid.Column="5" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="3" Grid.Column="5" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+            <Button Grid.Row="4" Grid.Column="5" Text="" Clicked="Button_Clicked" BorderColor="Black" BorderRadius="4"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

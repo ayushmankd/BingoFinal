@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BingoFinal.MultiGameName">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Enter Your Name"/>
+        <Entry x:Name="entry" Placeholder="Name"/>
+        <Button x:Name="b" Clicked="b_Clicked" Text="Done" WidthRequest="250" Margin="10"/>
+    </StackLayout>
+</ContentPage>
